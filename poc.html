@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <title>My Typescript Page</title>
+  </head>
+  <body>
+    <h1>Running the Typescript Code</h1>
+    <h3 id="line1">Latest Mainnet block via ethereumscan api is :</h3>
+    <h3 id="line2">Latest Mainnet block via mainnet.infura and web3.js is :</h3>
+    <h3 id="line3">USDT Balance for my wallet address via ethereumscan api is :</h3>
+    <h3 id="line4">USDT Balance for my wallet address via mainnet.infura and web3.js is :</h3>
+
+    <h1>Enter an address to check its balance:</h1>
+    <input type="text" id="address" />
+    <button id="submitButton">Submit</button>
+
+    <h3 id="line5">USDT Balance for the addres you entered via ethereumscan api is :</h3>
+    <h3 id="line6">USDT Balance for the addres you entered via mainnet.infura and web3.js is :</h3>
+
+    <script src="script.js"></script>
+  </body>
+</html>
